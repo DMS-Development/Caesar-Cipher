@@ -1,1 +1,7 @@
 # Caesar-Cipher
+
+Helloooooo! Now we're starting to get into the meat of things. I've begun learning ruby, for this project I was tasked with writing a program that executed a Caesar Cipher, meaning it takes whatever string of text you give it, alongside a shift value, and shifts all the letters so many values down the alphabet. This has been a pretty difficult project honestly, I've encountered quite a few issues that took a bit of logical thinking and rewriting to get it right. The biggest challenge I faced was breaking down this project into a logical step by step sequence. The second biggest challenge I faced was separating all the values so they they could be shifted properly.
+
+Originally I attempted to do a lot of convoluted nested if statements that resulted in improper separation of values and improper merging when reconstructing the final string. The way I solved these problems was by taking a step back from the computer and writing down my thoughts in what logical order the program *should* work in. Once I did this I realized I did not need to complicate things by nesting if statements within themselves. I realized it was a lot more simple than that and it jsut needed a regular `if elsif else` statment to control for different conditions.
+
+One thing That I could make better within this program is the conditional for special characters, I believe this could be solved with a simple "regex" but I have not learned about these statements yet, the time will come though. Thanks for checking out this project!
